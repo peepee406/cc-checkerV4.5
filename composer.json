@@ -1,0 +1,6 @@
+{
+    "require": {},
+    "scripts": {
+        "start": "php telegram_bot.php"
+    }
+}
