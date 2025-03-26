@@ -1,0 +1,7 @@
+services:
+- type: web
+  name: cc-checker-bot
+  env: php
+  buildCommand: composer install
+  startCommand: php telegram_bot.php
+  plan: free
